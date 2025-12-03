@@ -11,7 +11,7 @@ The system uses an **in-memory graph** managed by NetworkX, suitable for develop
 ## Base URL
 
 - **Local Development**: `http://localhost:8000`
-- **Production (Vercel)**: `https://your-deployment.vercel.app`
+- **Production (Vercel)**: `https://deadpanda.vercel.app`
 
 ---
 
@@ -476,7 +476,7 @@ async function visualizeGraph() {
 
 3. **Update frontend with production URL:**
    ```javascript
-   const API_BASE_URL = 'https://your-deployment.vercel.app';
+   const API_BASE_URL = 'https://deadpanda.vercel.app';
    ```
 
 ---
